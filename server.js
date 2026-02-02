@@ -3,7 +3,7 @@ const { Server } = require('socket.io');
 
 // === CONFIGURACIÓN ===
 // CAMBIA ESTO POR EL USUARIO QUE ESTÁ EN VIVO (Sin @)
-let tiktokUsername = "marycorona847"; 
+let tiktokUsername = "sweet.caracola"; 
 
 // Configuración del servidor para Render
 const PORT = process.env.PORT || 3000;
@@ -56,3 +56,4 @@ tiktokLiveConnection.on('gift', data => {
     });
 
 });
+
